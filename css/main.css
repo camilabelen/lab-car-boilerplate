@@ -3,10 +3,17 @@ body{
 	color: #FFF;
 }
 
-header nav img{
-	padding: 20px;
+/* menu*/
+header nav{
+padding-bottom: 10px;
 }
 
+/*lista menu*/
+.menu li:last-child{
+	margin-right: 40px;
+}
+
+/*primera seccion- taxi y cuadro de registro*/
 .seccionRegistro{
 	background-image: url(../assets/images/taxi.jpg);
 	background-size: cover;
@@ -15,20 +22,51 @@ header nav img{
 	height: 750px;
 }
 
+/*cuadro registro primera seccion*/
 .registro{
-	background-color: #ffc700;
+	background-color: #F7BD00;
 	padding: 30px;
 	margin-top: 16%;
 }
 
+/*logo blanco en cuadro de registro*/
+.registro img{
+	width: 70px;
+	margin-left: 10px;
+}
+
+/*titulo cuadro de registro*/
+.registro h3{
+	padding-bottom: 20px;
+}
+
+/*botones cuadro de registro*/
+.registro button{
+	margin: 10px 0;
+}
+
+/*contenedor imagen iphone*/
 .celular{
 	margin: 30px;
 }
 
+/*imagen iphone*/
 .celular img{
 	height: 300px;
 }
 
+/*seccion app */
+.celularApp{
+	background-color: #F7BD00;
+	padding: 50px;
+}
+
+/*texto seccion app*/
+.app h3,.app p{
+	padding-bottom: 10px;
+}
+
+/*seccion convertirse en conductor*/
 .conductor{
 	background-image: url(../assets/images/conduce.jpg);
 	background-size: cover;
@@ -37,37 +75,60 @@ header nav img{
 	height: 500px;
 }
 
+/*contenedor texto "conduce cuando quieras"*/
 .text{
-	background-color: #0000008c;
+	background-color: rgba(0, 0, 0, 0.5);
 	padding: 50px 20px 20px 20px;
 }
 
-.celularApp{
-	background-color: #ffc700;
-	padding: 50px;
-}
-
+/*seccion con inputs de partita y destino y mapa*/
 .tarifasMapa{
-	background-color: #ffc700;
+	background-color: #F7BD00;
 	padding: 30px;
 }
-.tarifasMapa .input-group{
+
+/*input de punto de partida y destino*/
+.tarifasMapa .partida, .tarifasMapa .destino{
 	margin-bottom: 20px;
+	background-color: #F7BD00;
+	border:1px solid #FFF;
+	color: #FFF;
+	border-radius: 30px;
 }
+
+/*footer*/
 
 footer{
 	background-color: #2F2F2F;
 	color: #FFF;
 }
 
-footer h2{
+/*logo*/
+footer .logo{
 	padding-top: 30px;
 }
+
+/*lista*/
 
 footer ul li{
 	padding: 10px;
 }
 
+/*estilo elelemtos de la lista*/
+footer ul li a{
+	color: #FFF;
+	text-decoration-style: none;
+}
+
+/*imágenes app store y google play*/
+footer .appstore, footer .googleplay{
+	width: 80%;
+	margin-bottom: 10px;
+
+}
+
+/*iconos redes sociales*/
 footer .iconos span{
 	margin-right: 10px;
+	color: #FFF;
 }
