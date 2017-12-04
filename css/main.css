@@ -1,1 +1,73 @@
 /* Los estilos de tu proyecto */
+body{
+	color: #FFF;
+}
+
+header nav img{
+	padding: 20px;
+}
+
+.seccionRegistro{
+	background-image: url(../assets/images/taxi.jpg);
+	background-size: cover;
+	background-position: 0 92%;	
+	background-repeat: no-repeat;
+	height: 750px;
+}
+
+.registro{
+	background-color: #ffc700;
+	padding: 30px;
+	margin-top: 16%;
+}
+
+.celular{
+	margin: 30px;
+}
+
+.celular img{
+	height: 300px;
+}
+
+.conductor{
+	background-image: url(../assets/images/conduce.jpg);
+	background-size: cover;
+	background-position: 0 50%;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+
+.text{
+	background-color: #0000008c;
+	padding: 50px 20px 20px 20px;
+}
+
+.celularApp{
+	background-color: #ffc700;
+	padding: 50px;
+}
+
+.tarifasMapa{
+	background-color: #ffc700;
+	padding: 30px;
+}
+.tarifasMapa .input-group{
+	margin-bottom: 20px;
+}
+
+footer{
+	background-color: #2F2F2F;
+	color: #FFF;
+}
+
+footer h2{
+	padding-top: 30px;
+}
+
+footer ul li{
+	padding: 10px;
+}
+
+footer .iconos span{
+	margin-right: 10px;
+}
