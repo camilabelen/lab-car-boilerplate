@@ -46,6 +46,10 @@ padding-bottom: 10px;
 }
 
 /*contenedor imagen iphone*/
+.borde{
+	border: 1px solid #FFF;
+}
+
 .celular{
 	margin: 30px;
 }
@@ -58,7 +62,7 @@ padding-bottom: 10px;
 /*seccion app */
 .celularApp{
 	background-color: #F7BD00;
-	padding: 50px;
+	padding: 50px 0;
 }
 
 /*texto seccion app*/
@@ -96,6 +100,11 @@ padding-bottom: 10px;
 	border-radius: 30px;
 }
 
+.tarifasMapa iframe{
+	width: 100%;
+	height: 300px;
+}
+
 /*footer*/
 
 footer{
@@ -131,4 +140,43 @@ footer .appstore, footer .googleplay{
 footer .iconos span{
 	margin-right: 10px;
 	color: #FFF;
+}
+
+@media (max-width: 767px){
+	header nav span{
+		float: left;
+		color: #878787;
+		font-size: 22px;
+		padding: 6px;
+		border: 1px solid #878787;
+		border-radius: 8px;
+		margin: 14px;
+	}
+
+	header nav img{
+		float: left;
+	}
+
+	.borde{
+		height: 370px;
+	}
+
+	.celular img{
+		height: 250px;
+	}
+
+	.registroCelular{
+		margin-top: 50%;
+	}
+
+	.text{
+		height: 500px;
+	}
+
+	.tarifasMapa iframe{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+
 }
