@@ -85,6 +85,11 @@ padding-bottom: 10px;
 	padding: 50px 20px 20px 20px;
 }
 
+/*boton conviertete en conductor*/
+.btn-conductor{
+	background-color: #F7BD00;
+}
+
 /*seccion con inputs de partita y destino y mapa*/
 .tarifasMapa{
 	background-color: #F7BD00;
@@ -133,7 +138,6 @@ footer ul li a{
 footer .appstore, footer .googleplay{
 	width: 80%;
 	margin-bottom: 10px;
-
 }
 
 /*iconos redes sociales*/
@@ -142,6 +146,64 @@ footer .iconos span{
 	color: #FFF;
 }
 
+/*Modal inicio de sesión*/
+#inicioSesión{
+	color:#565656;
+}
+
+#inicioSesión .login{
+	margin: 10px;
+}
+
+.btn-login{
+	background-color: #F6C600;
+}
+
+/*modal registro*/
+
+#modalRegistro{
+	color: #565656;
+}
+
+.cuenta{
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+}
+
+#modalRegistro input{
+	margin: 5px;
+}
+
+.nosotros{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.enviar{
+	width: 100%;
+	background-color: #F6C600;
+	color: #FFF;
+}
+
+
+/*modal convertirse en conductor*/
+
+#seConductor{
+	color: #565656;
+}
+
+#seConductor p{
+	color: #919191;
+}
+
+.btn-enviar{
+	width: 100%;
+	background-color: #F6C600;
+	color: #FFF;
+}
+
+/*Media queries dispositivos moviles*/
 @media (max-width: 767px){
 	header nav span{
 		float: left;
@@ -177,6 +239,5 @@ footer .iconos span{
 		width: 100%;
 		margin-top: 20px;
 	}
-
 
 }
